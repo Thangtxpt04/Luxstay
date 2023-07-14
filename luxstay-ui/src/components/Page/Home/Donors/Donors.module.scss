@@ -1,0 +1,33 @@
+.wrapper {
+    background-color: #fafafa;
+    display: flex;
+    justify-content: center;
+    padding: 15px 199.6px 15px 199.6px;
+    
+    .list-donors {
+        width: var(--default-layout-width);
+        
+
+        .item {
+            display: inline-block;
+            text-align: center;
+            margin: 0 -2px;
+            padding: 10px;
+            width: 16.666666%;
+            vertical-align: middle;
+            -webkit-filter: grayscale(100%);
+            filter: grayscale(100%);
+            transition: .3s all;
+
+            img {
+                max-width: 100%;
+                padding: 10px;
+            }
+            &:hover {
+                -webkit-filter: none;
+                filter: none;
+            }
+            
+        }
+    }
+}
